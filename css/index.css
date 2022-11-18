@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.login {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    background: #e0aaff;
+    
+}
+
+header button {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+    background: #e0aaff;
+    border: none;
+}
+
+
+.ligino {
+    background: #c77dff;
+    border-right: 1px solid black;
+}
+
+.registr {
+    border-left: 1px solid black;
+}
+
+/* main  */
+
+.log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    background: #c77dff;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    background: rgba(223, 180, 255, 0.3);
+    border-radius: 20px;
+}
+
+.error {
+    font-size: 12px;
+    color: red;
+}
+
+.inputs {
+    margin-bottom: 25px;
+}
+
+.email {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.password {
+    text-align: left;
+}
+
+.email p {
+    font-size: 16px;
+}
+
+.password p {
+    font-size: 16px;
+}
+
+.buttons button {
+    border-radius: 50px;
+    width: 173px;
+    height: 30px;
+    background: orange;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: rgba(255, 165, 0, 0.9);
+}
+
+
+
+
+
+
+.network {
+    display: none;
+}
+
+
+
+
+
+
+
+.reg {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    background: #c77dff;
+}
+
+.h2 {
+    width: 100%;
+    background: #e0aaff;
+}

@@ -9,7 +9,6 @@ loginoButton.addEventListener('click', () => {
     secLog.style.display = 'flex';
     loginoButton.style.background = '#c77dff'
     registrButton.style.background = '#e0aaff'
-    console.log('1')
 })
 
 registrButton.addEventListener('click', () => {
@@ -17,5 +16,4 @@ registrButton.addEventListener('click', () => {
     secLog.style.display = 'none';
     registrButton.style.background = '#c77dff'
     loginoButton.style.background = '#e0aaff'
-    console.log(secReg)
 })

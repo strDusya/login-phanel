@@ -9,6 +9,7 @@ loginoButton.addEventListener('click', () => {
     secLog.style.display = 'flex';
     loginoButton.style.background = '#c77dff'
     registrButton.style.background = '#e0aaff'
+    errorReg.innerHTML = ''
 })
 
 registrButton.addEventListener('click', () => {
